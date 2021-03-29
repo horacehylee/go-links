@@ -1,0 +1,12 @@
+{
+  "public": false,
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/_health", "destination": "/api/health" },
+    { "source": "/_admin", "destination": "/api/admin" },
+    { "source": "/:match*", "destination": "/api/go?match=:match*" }
+  ],
+  "github": {
+    "enabled": false
+  }
+}
