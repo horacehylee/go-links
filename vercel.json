@@ -1,6 +1,7 @@
 {
   "public": false,
   "cleanUrls": true,
+  "regions": ["sin1"],
   "rewrites": [
     { "source": "/_health", "destination": "/api/health" },
     { "source": "/_admin", "destination": "/api/admin" },
